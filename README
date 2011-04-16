@@ -8,7 +8,7 @@ by Reimund Trost <reimund@code7.se>
 
 Description
 -----------
-Compact Admin simply make the posts and pages lists in the admin pages more
+Compact Admin simply makes the posts and pages lists in the admin pages more
 compact. Instead of taking up two lines of text, plus excessive margins, only
 one line is used per post/page. It also replaces the cluttery en dashes with
 whitespace.
