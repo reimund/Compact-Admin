@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Compact Admin
-Plugin URI: http://lumens.se/wp/compact-admin/
+Plugin URI: http://lumens.se/compact-admin/
 Description: Makes the post & pages list in the admin more compact. It also replaces the em dashes with whitespace in the pages list for a cleaner look.
 Author: Reimund Trost
 Version: 1.0
