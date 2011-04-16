@@ -1,0 +1,26 @@
+table.pages div.row-actions,
+table.posts div.row-actions {
+	float: left;
+	margin-top: 0;
+	padding-top: 1px;
+	position: relative;
+}
+
+td.page-title strong,
+td.post-title strong {
+	float: left;
+	margin-right: 1em;
+}
+
+table.pages tr,
+table.posts tr { line-height: 1.2em; }
+
+table.pages th#date,
+table.posts th#date { width: 13%; }
+
+table.pages tbody th.check-column,
+table.posts tbody th.check-column { padding-bottom: 0; }
+
+td.comments.column-comments { padding: 2px 0 0 0; }
+td.date br { display: none; }
+td.date abbr { margin-right: 0.4em; }

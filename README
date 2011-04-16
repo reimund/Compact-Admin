@@ -1,0 +1,32 @@
+Compact Admin
+==========
+
+Version 1.0 - Sat 16 Apr 2011
+
+by Reimund Trost <reimund@code7.se>
+<http://lumens.se/compact-admin/>
+
+Description
+-----------
+Compact Admin simply make the posts and pages lists in the admin pages more
+compact. Instead of taking up two lines of text, plus excessive margins, only
+one line is used per post/page. It also replaces the cluttery en dashes with
+whitespace.
+
+Companct Admin is released as open source and can be used, modified and
+redistributed in any way possible.
+
+
+Installation
+------------
+1. Put the __compact-admin__ directory in your wordpress plugins directory, located at __<wordpress>/wp-content/plugins.
+2. Activate Compact Admin in the Plugins section of the Wordpress admin.
+
+
+Changelog
+=========
+
+1.0
+---
+* Initial release.
+
