@@ -26,6 +26,10 @@ Installation
 Changelog
 =========
 
+1.0.1
+-----
+* Fixed path to css problem when wp install isn't in the domain root.
+
 1.0
 ---
 * Initial release.
