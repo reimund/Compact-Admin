@@ -29,6 +29,9 @@ redistributed in any way possible.
 
 == Changelog ==
 
+= 1.1.1 =
+* Additional css fixes for 3.9.
+
 = 1.1 =
 * Css fixes for Wordpress 3.9.
 
