@@ -24,10 +24,11 @@ table.posts tbody th.check-column { padding-bottom: 0; }
 td.comments.column-comments { padding: 2px 0 0 0; }
 td.date br { display: none; }
 td.date abbr { margin-right: 0.4em; }
+table.posts th,
+table.pages th { padding-top: 4px !important; }
 
-table.widefat th { padding-top: 1px !important; }
-
-table.widefat td {
+table.pages td,
+table.posts td {
 	line-height: 1em !important;
-	padding-top: 1px !important;
+	padding-top: 3px !important;
 }
