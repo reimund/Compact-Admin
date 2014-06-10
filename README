@@ -1,7 +1,7 @@
 Compact Admin
 ==========
 
-Version 1.0 - Sat 16 Apr 2011
+Version 1.1 - Tue 10 Jun 2014
 
 by Reimund Trost <reimund@code7.se>
 <http://lumens.se/compact-admin/>
@@ -25,6 +25,10 @@ Installation
 
 Changelog
 =========
+
+1.1
+-----
+* Fixed css for Wordpress 3.9.
 
 1.0.1
 -----
