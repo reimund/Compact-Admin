@@ -1,6 +1,6 @@
 === Compact Admin ===
 Tags: admin, theme, compact, posts, pages, table, clean
-Tested up to: 3.1.1
+Tested up to: 3.9.1
 Donate link http://lumens.se/compact-admin/
 Stable tag: trunk
 
@@ -28,6 +28,11 @@ redistributed in any way possible.
 2. Wordpress default.
 
 == Changelog ==
+
+= 1.1.2 =
+* Only load the css & script on the posts and pages page.
+* Enqueue the css Wordpress-style.
+* Misc css tweaks.
 
 = 1.1.1 =
 * Additional css fixes for 3.9.

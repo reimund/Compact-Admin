@@ -1,7 +1,7 @@
 Compact Admin
 ==========
 
-Version 1.1.1 - Tue 10 Jun 2014
+Version 1.1.2 - Fri 13 Jun 2014
 
 by Reimund Trost <reimund@code7.se>
 <http://lumens.se/compact-admin/>
@@ -25,6 +25,12 @@ Installation
 
 Changelog
 =========
+
+1.1.2
+-----
+* Only load the css & script on the posts and pages page.
+* Enqueue the css Wordpress-style.
+* Misc css tweaks.
 
 1.1.1
 -----
