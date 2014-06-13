@@ -29,6 +29,10 @@ table.pages th { padding-top: 4px !important; }
 
 table.pages td,
 table.posts td {
-	line-height: 1em !important;
-	padding-top: 3px !important;
+	line-height: 24px !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
 }
+
+table.pages td.comments a,
+table.posts td.comments a { padding: 5px 0 1px; }
