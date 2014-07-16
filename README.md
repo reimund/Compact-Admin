@@ -4,7 +4,7 @@ Compact Admin
 Version 1.1.3 - Wed 16 Jul 2014
 
 by Reimund Trost <reimund@code7.se>
-<http://lumens.se/compact-admin/>
+<http://lumens.se/tools/compact-admin/>
 
 Description
 -----------
