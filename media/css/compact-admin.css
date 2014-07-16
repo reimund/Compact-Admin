@@ -36,3 +36,6 @@ table.posts td {
 
 table.pages td.comments a,
 table.posts td.comments a { padding: 5px 0 1px; }
+
+table.pages th#date,
+table.posts th#date { width: 20%; }

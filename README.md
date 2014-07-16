@@ -1,7 +1,7 @@
 Compact Admin
 ==========
 
-Version 1.1.2 - Fri 13 Jun 2014
+Version 1.1.3 - Wed 16 Jul 2014
 
 by Reimund Trost <reimund@code7.se>
 <http://lumens.se/compact-admin/>
@@ -25,6 +25,10 @@ Installation
 
 Changelog
 =========
+
+1.1.3
+-----
+* Misc css tweaks.
 
 1.1.2
 -----

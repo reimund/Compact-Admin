@@ -29,6 +29,9 @@ redistributed in any way possible.
 
 == Changelog ==
 
+= 1.1.3 =
+* Misc css tweaks.
+
 = 1.1.2 =
 * Only load the css & script on the posts and pages page.
 * Enqueue the css Wordpress-style.
