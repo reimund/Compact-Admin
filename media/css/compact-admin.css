@@ -16,7 +16,7 @@ table.pages tr,
 table.posts tr { line-height: 1.2em; }
 
 table.pages th#date,
-table.posts th#date { width: 13%; }
+table.posts th#date { width: 25%; }
 
 table.pages tbody th.check-column,
 table.posts tbody th.check-column { padding-bottom: 0; }

@@ -29,6 +29,9 @@ redistributed in any way possible.
 
 == Changelog ==
 
+= 1.1.4 =
+* Small css tweak.
+
 = 1.1.3 =
 * Misc css tweaks.
 
