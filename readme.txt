@@ -29,6 +29,9 @@ redistributed in any way possible.
 
 == Changelog ==
 
+= 1.2.0 =
+* Updated selectors for Wordpress 4.6.
+
 = 1.1.4 =
 * Small css tweak.
 
