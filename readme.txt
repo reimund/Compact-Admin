@@ -1,11 +1,11 @@
 === Compact Admin ===
 Tags: admin, theme, compact, posts, pages, table, clean
-Tested up to: 3.9.1
+Tested up to: 4.6.0
 Donate link http://lumens.se/tools/compact-admin/
 Stable tag: trunk
 
 Compact Admin simply makes the posts and pages lists in the admin pages more
-compact. 
+compact.
 
 == Description ==
 Compact Admin simply makes the posts and pages lists in the admin pages more

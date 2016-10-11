@@ -1,7 +1,7 @@
 Compact Admin
 ==========
 
-Version 1.1.4 - Mon 1 Sep 2014  
+Version 1.2.0 - Tue 11 Oct 2016  
   
 by Reimund Trost <reimund@code7.se>  
 <http://lumens.se/tools/compact-admin/>  
@@ -25,6 +25,10 @@ Installation
 
 Changelog
 =========
+
+1.2.0
+-----
+* Updated selectors for Wordpress 4.6.
 
 1.1.4
 -----
