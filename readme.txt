@@ -29,6 +29,10 @@ redistributed in any way possible.
 
 == Changelog ==
 
+= 1.3.0 =
+* Added settings page.
+* Small css tweaks.
+
 = 1.2.0 =
 * Updated selectors for Wordpress 4.6.
 
