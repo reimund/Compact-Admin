@@ -62,28 +62,28 @@ function ca_register_settings() {
 }
 
 function ca_settings_init() {
-	// Shouldn't update_option be called automatically?
-	if (!empty($_POST['ca_enabled_post_types'])) {
-		update_option('ca_enabled_post_types', $_POST['ca_enabled_post_types']);
+	// Ensure only admins can view this page.
+	if ( ! current_user_can( 'manage_options' ) ) {
+		return;
 	}
 
 	?>
-		<div class="wrap">
+	<div class="wrap">
 		<div id="icon-options-general" class="icon32"></div>
-	   
-		<!-- run the settings_errors() function here. -->
+
 		<?php settings_errors(); ?>
+
 		<h1>Compact Admin settings</h1>
-	   
-		<form method="post" action="options-general.php?page=compact-admin-settings" enctype="multipart/form-data">
+
+		<form method="post" action="options.php" enctype="multipart/form-data">
 			<?php
 				settings_fields('ca_settings_section');
 
-				// all the add_settings_field callbacks is displayed here
+				// All the add_settings_field callbacks are displayed here.
 				do_settings_sections('compact-admin-settings');
 
 				submit_button('Save changes');
-			?>          
+			?>
 		</form>
 	</div>
 	<?php
