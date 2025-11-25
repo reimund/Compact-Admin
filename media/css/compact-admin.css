@@ -1,9 +1,15 @@
+.table-view-list th:first-of-type { width: 500px; }
+tr:hover .row-actions {
+	height: 26px !important;
+	transition: height 300ms ease-in-out;
+}
+
 table.pages div.row-actions,
 table.posts div.row-actions {
+	height: 0;
 	float: left;
 	margin-top: 0;
 	padding-top: 1px;
-	position: relative;
 }
 
 td.page-title strong,
@@ -22,7 +28,8 @@ table.pages tbody th.check-column,
 table.posts tbody th.check-column { padding-bottom: 0; }
 
 td.comments.column-comments { padding: 2px 0 0 0; }
-td.date br { display: none; }
+td.date br { content: ''; }
+td.date br:after { content: ' '; }
 td.date abbr { margin-right: 0.4em; }
 table.posts th,
 table.pages th { padding-top: 4px !important; }
