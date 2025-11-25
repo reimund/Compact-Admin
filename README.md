@@ -1,10 +1,10 @@
 Compact Admin
 ==========
 
-Version 1.3.2 - Tue 6 Sep 2022  
+Version 1.3.3 - Tue 25 Nov 2025  
   
 by Reimund Järnfors <reimund@code7.se>  
-<http://lumens.se/tools/compact-admin/>  
+<https://github.com/reimund/Compact-Admin>  
 
 Description
 -----------
@@ -25,6 +25,10 @@ Installation
 
 Changelog
 =========
+
+1.3.3
+-----
+* Fix issue with Compact Admin not getting triggered when editing posts of 'post' post type.
 
 1.3.2
 -----

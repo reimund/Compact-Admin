@@ -21,4 +21,9 @@ $(document).ready(function() {
 
 		$(this).html('<span style="' + style + '">' + t.substr(i * r.length) + '</span>');
 	});
+
+	$('table.pages td.date.column-date, table.posts td.date.column-date').each(function() {
+		// Replace all <br> tags inside this element with a &nbsp;
+		$(this).html($(this).html().replace(/<br>/g, '&nbsp;'));
+	});
 });

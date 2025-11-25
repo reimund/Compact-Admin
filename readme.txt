@@ -1,6 +1,6 @@
 === Compact Admin ===
-Tags: admin, theme, compact, posts, pages, table, clean
-Tested up to: 4.6.0
+Tags: admin, theme, compact, posts, pages
+Tested up to: 6.8.2
 Donate link http://lumens.se/tools/compact-admin/
 Stable tag: trunk
 
@@ -28,6 +28,9 @@ redistributed in any way possible.
 2. Wordpress default.
 
 == Changelog ==
+
+= 1.3.3 =
+* Fix issue with Compact Admin not getting triggered when editing posts of 'post' post type.
 
 = 1.3.2 =
 * Fix version in readme & template

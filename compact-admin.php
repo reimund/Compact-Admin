@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Compact Admin
-Plugin URI: http://lumens.se/compact-admin/
+Plugin URI: https://github.com/reimund/Compact-Admin
 Description: Makes the post & pages list in the admin more compact. It also replaces the em dashes with whitespace in the pages list for a cleaner look.
 Author: reimund
-Version: 1.3.2
-Author URI: http://lumens.se/
+Version: 1.3.3
+Author URI: https://github.com/reimund
 */
 
 function ca_admin_scripts() {
@@ -18,8 +18,10 @@ function ca_admin_scripts() {
 	else {
 		$enabled_post_types = explode(',', str_replace(', ', ',', $enabled_post_types));
 	}
+
+	$post_type = isset($_GET['post_type']) ? $_GET['post_type'] : 'post';
 	
-	if ($pagenow === 'edit.php' && in_array($_GET['post_type'], $enabled_post_types)) {
+	if ($pagenow === 'edit.php' && in_array($post_type, $enabled_post_types)) {
 		wp_enqueue_script('compact-admin', plugins_url(basename(__DIR__) . '/media/js/compact-admin.js'), ['jquery']);
 		wp_register_style('compact_admin', plugins_url(basename(__DIR__)) . '/media/css/compact-admin.css', []);
 		wp_enqueue_style('compact_admin');
