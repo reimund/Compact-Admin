@@ -29,9 +29,13 @@ redistributed in any way possible.
 
 == Changelog ==
 
+= 1.3.2 =
+* Fix version in readme & template
+
 = 1.3.1 =
 * Security fix
 * Small css tweaks.
+
 
 = 1.3.0 =
 * Added settings page.

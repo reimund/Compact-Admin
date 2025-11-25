@@ -1,7 +1,7 @@
 Compact Admin
 ==========
 
-Version 1.3.0 - Tue 6 Sep 2022  
+Version 1.3.2 - Tue 6 Sep 2022  
   
 by Reimund Järnfors <reimund@code7.se>  
 <http://lumens.se/tools/compact-admin/>  
@@ -25,6 +25,15 @@ Installation
 
 Changelog
 =========
+
+1.3.2
+-----
+* Fix version in readme & template
+
+1.3.1
+-----
+* Security fix
+* Small css tweaks.
 
 1.3.0
 -----
